@@ -94,12 +94,12 @@ nav {
   color: white;
 }
 .ct-one {
-  background-image: url(./Assets/bg-testmonial-01.jpg);
+  background-image: url(Assets/bg-testmonial-01.jpg);
   background-position: 100px;
   padding: 100px 50px;
 }
 .ct-two{
-  background-image: url(./Assets/bg-testmonial-03.jpg);
+  background-image: url(Assets/bg-testmonial-03.jpg);
   background-position: 100px;
   padding: 100px 50px;
 }
