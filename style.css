@@ -54,6 +54,7 @@ nav {
 }
 
 .logo-banner {
+  padding-top: 10px;
   width: 80vw;
 }
 .hp-heading {
@@ -109,15 +110,68 @@ footer{
   background-color: #000;
   color: white;
 }
+.footer-heading{
+  color: #2b2b2b;
+  margin: 0;
+  padding-top: 30px;
+  font-size: 50px;
+}
+.footer-deco{
+  margin: 0;
+  padding-top: 30px;
+  color: #2b2b2b;
+}
+.review-deco{
+  color: #777;
+}
 .review{
   display: flex;
+  /* flex-direction: column; */
   flex-wrap: wrap;
-  column-count  : 2;
-  row-gap: 10px;
+  columns : 2;
+  column-gap: 40px;
+  padding-top: 10px;
   border-bottom: 1px dashed white;
-  width: fit-content;
 }
 .reviews{
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
   border-left:  3px solid white;
-
+  width: 40vw;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:1024px) {
+  .nav{
+    margin: auto;
+    text-align: center;
+    height: 10px;
+  }
+  .nav-list{
+    display: none;
+  }
+  .hp-heading{
+    margin: 15px 0 0 0;
+  }
+  .co-para{
+    margin: auto;
+    text-align: center;
+    width: 80vw;
+  }
+  .card{
+    margin: auto;
+    text-align: center;
+    flex-direction: column;
+    width: 80vw;
+  }
+  .cards{
+    margin: 10px 0;
+  }
+  .review{
+    flex-direction: column;
+  }
+  .reviews{
+    width: 90vw;
+  }
 }
